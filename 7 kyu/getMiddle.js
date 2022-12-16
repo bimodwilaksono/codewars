@@ -20,8 +20,16 @@ The middle character(s) of the word represented as a string. */
 //   return s.length % 2 ? s.slice(Math.floor(s.length/2),Math.ceil(s.length/2)): s.slice(Math.floor(s.length/2)-1,Math.ceil(s.length/2)+1)
 // }
 
-const getMiddle = (s) =>
-  s.substring(Math.ceil(s.length / 2 - 1), s.length % 2 === 0 ? 2 : 1);
+// const getMiddle = (s) =>
+//   s.substring(Math.ceil(s.length / 2 - 1), s.length % 2 === 0 ? 2 : 1);
 
-console.log(getMiddle("abcdef"));
-console.log(getMiddle("adgtergdrfgdsfgasd"));
+// console.log(getMiddle("abcdef"));
+// console.log(getMiddle("adgtergdrfgdsfgasd"));
+
+function multiply(num) {
+  total = num * num;
+}
+
+const result = multiply(3);
+
+console.log(result);
